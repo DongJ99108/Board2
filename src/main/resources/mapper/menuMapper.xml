@@ -4,5 +4,11 @@
 
 <mapper namespace="com.green.board.mapper.MenuMapper">
 
+     <select id="getMenuList"
+             resultType="com.green.board.menus.dto.MenuDTO">
+     SELECT     MENU_ID, MENU_NAME, MENU_SEQ
+      FROM      MENUS
+      ORDER BY  MENU_SEQ ASC
+     </select>
 
 </mapper>

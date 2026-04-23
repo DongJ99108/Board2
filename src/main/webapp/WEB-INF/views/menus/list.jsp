@@ -8,11 +8,8 @@
 </head>
 <body>
   <main>
-    <h2>Home</h2>
-    <a href="/test">Test</a>
-    <div><a href="/Menus/WriteForm">새 메뉴 추가</a></div>
-    <div><a href="/Menus/List">메뉴목록</a></div>
+    <h2>메뉴 목록</h2>
+    
   </main>
-  
 </body>
 </html>
